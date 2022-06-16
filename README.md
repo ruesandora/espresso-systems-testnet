@@ -30,7 +30,7 @@ docker-compose up
 Sunucu IP yazan yere sunucumuzun IP adresini girerlim.
 ```
 etsh interface portproxy add v4tov4 listenaddress=127.0.0.1 listenport=80 connectaddress=sunucuip connectport=80
-netsh interface portproxy add v4tov4 listenaddress=127.0.0.1 listenport=60000 connectaddress=sunucuip connectport=60000
+netsh interface portproxy add v4tov4 listenaddress=127.0.0.1 listenport=80 connectaddress=sunucuip connectport=80
 ```
 ![image](https://user-images.githubusercontent.com/101149671/174170473-11fc7972-e24c-4c59-ba61-166ab3588cdc.png)
 
